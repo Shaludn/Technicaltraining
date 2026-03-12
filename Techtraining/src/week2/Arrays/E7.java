@@ -1,6 +1,4 @@
 package Arrays;
-
-
 class Student {
     String name;
     int id;

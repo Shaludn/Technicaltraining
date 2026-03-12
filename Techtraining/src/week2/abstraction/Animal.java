@@ -14,7 +14,7 @@ abstract class Animal {
 	abstract void run();
 	//If an abstract class has only abstract methods
 	//it is 100% abstraction
-	//even it it has even 1 normal abstract method-it is not 100%
+	//even it has even 1 normal abstract method-it is not 100%
 
 }
 

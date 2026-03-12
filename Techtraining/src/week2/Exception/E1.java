@@ -8,8 +8,8 @@ public class E1 {
 		try {
 			k=i/j;// try block includes logical function
 			int[] arr= {1,3,3,4,5};
-			System.out.println(arr[9]);//when there's already one exception present, the code will stop at first exception, it wont move
-			                           //to other exceptions.
+			System.out.println(arr[9]);//when there's already one exception present, the code will stop at first exception,
+			                          // it wont move to other exceptions.
 		}
 		catch(ArithmeticException e) {        // catch blocks catches the exception and prints the problem occured
 			System.out.println("Cnnot divide by zero");

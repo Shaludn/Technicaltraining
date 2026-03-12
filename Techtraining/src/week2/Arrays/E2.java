@@ -1,4 +1,4 @@
-package Arrays;
+package week2.Arrays;
 
 public class E2 {
     public static void main(String[] args) {
