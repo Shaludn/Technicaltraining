@@ -3,7 +3,7 @@ package week2.Arrays;
 public class MajorityElement {
     //Boyer Moore's Algorithm for voting...
     public static void main(String[] args) {
-        int[] arr={1,2,2,2,3,2,2,2};
+        int[] arr={1,2,2,3,3,3,3,4,4,4,4};
         int i, count=0;
         int candidate=0;
         for(i=0;i<arr.length;i++){
@@ -18,6 +18,7 @@ public class MajorityElement {
             }
         }
         System.out.println("Majority element : "+ candidate);
+
     }
 }
 
