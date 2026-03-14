@@ -11,6 +11,7 @@ public class HashTableDemo {
         for (Map.Entry<Integer, String> e : h.entrySet()) {
             System.out.println(e.getKey() + " , " + e.getValue());
         }
+
         System.out.println();
         h.remove(102);
         System.out.println(h);
