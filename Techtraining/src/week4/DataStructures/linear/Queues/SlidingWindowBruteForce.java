@@ -15,7 +15,6 @@ public class SlidingWindowBruteForce {
                 }
             }
             System.out.print(max + " ");
-
         }
     }
 }
